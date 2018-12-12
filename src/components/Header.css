@@ -1,0 +1,32 @@
+.Header {
+    /* position: fixed; */
+    width: 100%;
+    padding: 24px;
+    z-index: 100;
+}
+
+.HeaderGroup {
+    max-width: 1280px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: auto 196px;
+    align-items: center;
+}
+
+@media (max-width: 640px) {
+    .Header {
+        padding: 16px;
+    }    
+
+    .HeaderGroup {
+        grid-template-columns: auto 108px;
+    }
+
+    .LeftNavLogo {
+        width: 44px;
+    }
+
+    .RightNavLogo {
+        width: 108px;
+    }
+}
