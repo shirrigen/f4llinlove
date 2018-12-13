@@ -7,7 +7,7 @@ const Header = ({ siteTitle }) => (
   <div className="Header">
     <div className="HeaderGroup">
       <img className="LeftNavLogo" src={require('../images/logo.svg')} width="64"></img>
-      <Link to="/"><img className="RightNavLogo" src={require('../images/logo2.svg')} width="148"></img></Link>
+      <img className="RightNavLogo" src={require('../images/logo2.svg')} width="148"></img>
     </div>
   </div>
 )

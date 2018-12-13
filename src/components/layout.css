@@ -1,4 +1,4 @@
-body {
+body:lang(zh-CN) {
   font-family: -apple-system-, 'SF Pro SC', 'SF Pro Text', 'SF Pro Icons', 'PingFang SC', 'Microsoft YaHei', '微软雅黑', 'Segoe UI', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   margin: 0;
   font-size: 20px;
@@ -8,23 +8,22 @@ body {
 
 .PageIndex {
   background-color: white;
-  height: 576px;
+  height: 480px;
   width: 100%;
 }
 
 .IndexHead {
   margin:0 auto;
   position: relative;
-  padding-top: 188px;
 }
 
 .IndexTitle {
   position: relative;
   margin: 0 auto;
-  color: #1d4abd;
+  color: #324664;
   z-index: 1;
   padding-right: 0.09em;
-  font-weight: 900;
+  font-weight: 600;
   animation: TitleAnimation;
   opacity: 0;
   animation-duration: 700ms;
@@ -44,6 +43,7 @@ body {
 }
 
 .IndexContent {
+  color: #324664;
   margin: 0 auto;
   position: relative;
   display: block;
@@ -54,7 +54,45 @@ body {
 .IndexContent span {
   position: relative;
   display: block;
-  margin: 0;
+  margin: 0 auto;
+}
+
+@media (min-width: 1280px) {
+  .IndexHead {
+    padding-top: 168px;
+  }
+}
+
+@media (max-width: 1279px) and (min-width: 1152px) {
+  .IndexHead {
+    padding-top: 148px;
+  }
+}
+
+@media (max-width: 1151px) and (min-width: 1024px) {
+  .IndexHead {
+    padding-top: 128px;
+  }
+}
+
+
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  .IndexHead {
+    padding-top: 108px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 667px) {
+  .IndexHead {
+    padding-top: 96px;
+  }
+}
+
+@media (max-width: 666px) and (min-width: 375px) {
+  .IndexHead {
+    padding-top: 96px;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -88,9 +126,9 @@ body {
 
 @media (max-width: 1023px) and (min-width: 768px) {
 .IndexTitle {
-    font-size: 44px;
+    font-size: 52px;
     letter-spacing: -0.7px;
-    line-height: 1.3;
+    line-height: 1.2;
     width: 620px;
   }
 }
@@ -104,9 +142,9 @@ body {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 666px) and (min-width: 375px) {
   .IndexTitle {
-    font-size: 30px;
+    font-size: 28px;
     letter-spacing: -0.02px;
     line-height: 1.2;
     width: 320px;
@@ -167,13 +205,17 @@ body {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 666px) and (min-width: 375px) {
   .IndexContent {
-    padding-top: 14px;
-    font-size: 16px;
+    padding-top: 32px;
+    font-size: 14px;
     letter-spacing: -0.02px;
     line-height: 1.3;
     width: 320px;
+  }
+
+  .PageIndex {
+    height: 360px;
   }
 }
 
@@ -193,5 +235,8 @@ body {
 
 .Cards {
   max-width: 1280px;
+  margin: 16px auto;
+  padding: 8px;
+  align-items: center;
 
 }

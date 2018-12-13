@@ -9,15 +9,15 @@ import Card from '../components/Card';
 const IndexPage = () => (
   <Layout>
     <SEO title="首页" keywords={['gatsby', 'application', 'react']} />
-    <body>
+    <div>
       <div className="PageIndex">
         <div className="IndexHead">
-          <h1 class="IndexTitle">
-            <span data-index="1">这个圣诞「他❤她」</span>
+          <h1 className="IndexTitle">
+            <span data-index="1">这个圣诞「石❤夏」</span>
             <span data-index="2">falllin.love ON THE AIR!</span>
           </h1>
           <div className="IndexContent">
-            <span>falllin.love 是石先生与夏小姐用来记录重要时刻的小站，</span>
+            <span>falllin.love 是石先生与夏小姐用来记录重要时刻的小站。</span>
             <span>如果没有任何更新…也不要见怪，因为有人很懒...</span>
           </div>
         </div>
@@ -26,33 +26,41 @@ const IndexPage = () => (
 
       </div>
       <div className="Cards">
-        <h2>Clips</h2>
+        <h2>影像快照</h2>
         <div className="CardGroup">
           <Card
-            title="Huuuug"
-            text="Dec"
+            title="拥抱"
+            text="2018.12"
             image={require('../images/img-clip-01.jpg')} />
           <Card
-            title="Huuuug"
-            text="Dec"
+            title="双姝"
+            text="2018.12"
             image={require('../images/img-clip-02.jpg')} />
           <Card
-            title="Huuuug"
-            text="Dec"
+            title="蛇口"
+            text="2018.12"
             image={require('../images/img-clip-03.jpg')} />
           <Card
-            title="Huuuug"
-            text="Dec"
+            title="肯德基外的墙"
+            text="2018.11"
             image={require('../images/img-clip-04.jpg')} />
+          <Card
+            title="渔人码头"
+            text="2018.11"
+            image={require('../images/img-clip-05.jpg')} />
+          <Card
+            title="霓虹"
+            text="2018.10"
+            image={require('../images/img-clip-06.jpg')} />
         </div>
       </div>
 
 
 
 
-      <Link to="/page-2/">Go to page 2</Link>
-      <Image />
-    </body>
+      {/* <Link to="/page-2/">Go to page 2</Link>
+      <Image /> */}
+    </div>
   </Layout>
 )
 
