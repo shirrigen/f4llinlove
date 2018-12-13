@@ -50,7 +50,7 @@
     font-weight: 600;
     max-width: 1280px;
     text-align: center;
-    background: linear-gradient(45deg, #FA7268 0%, #4a548c 70%);
+    background: linear-gradient(135deg, #FA7268 40%, #4a548c 60%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
