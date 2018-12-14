@@ -1,5 +1,4 @@
 import React from 'react'
-import Zmage from 'react-zmage'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Image from '../components/image'

@@ -1,6 +1,5 @@
 import React from 'react'
 import './Cards.css'
-// import Zmage from 'react-zmage'
 
 const Card = props => (
     <div className="Card">
