@@ -1,4 +1,5 @@
 import React from 'react'
+import Zmage from 'react-zmage'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Image from '../components/image'
@@ -26,6 +27,7 @@ const IndexPage = () => (
       </div>
       <div className="Cards">
         <h2>影像快照</h2>
+        <Zmage src={require('../images/img-clip-04.jpg')} radius={16} />
         <div className="CardGroup">
           <Card
             title="拥抱"
