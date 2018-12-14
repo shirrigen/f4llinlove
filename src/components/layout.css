@@ -7,6 +7,11 @@ body {
 }
 
 
+.zoomed {
+  border-radius: 16px;
+}
+
+
 
 .PageIndex {
   background-color: white;

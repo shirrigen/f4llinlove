@@ -1,14 +1,24 @@
 import React from 'react'
-import Zmage from 'react-zmage'
+import ImageZoom from 'react-medium-image-zoom'
 import './Cards.css'
 
 const Card = props => (
     <div className="Card">
-        <Zmage src={props.image} alt={props.alt} radius={16} />
+        <ImageZoom
+        image={{
+          src: props.image,
+          alt: props.alt,
+          className: 'aaaa',
+        }}
+        zoomImage={{
+          src: props.image,
+          alt: props.alt,
+          className: 'zoomed',
+        }}
+      />
         <h3>{props.title}</h3>
         <p>{props.text}</p>
     </div>
 )
-
 
 export default Card
