@@ -73,7 +73,7 @@ const IndexPage = () => (
                 <span className="MailTo"><a href="mailto:latuna2009@gmail.com">latuna2009@gmail.com</a></span>
               </div>
               <div className="FooterLogo">
-                <img src={require('../images/logo-white.svg')} alt="「石与夏」" width="128"></img>
+                <img src={require('../images/logo-white.svg')} alt="「石与夏」" height="128"></img>
               </div>
             </div>
           </div>
