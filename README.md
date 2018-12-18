@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https:/falllin.love">
-    <img alt="reaganblair" src="https://https://s1.ax1x.com/2018/12/18/FBC91A.png" width="60" />
+    <img alt="reaganblair" src="https://s1.ax1x.com/2018/12/18/FBC91A.png" width="60" />
   </a>
 </p>
 <h1 align="center">
