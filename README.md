@@ -10,6 +10,6 @@
 
 
 <p align="center">falllin.love 是石先生与夏小姐用来记录重要时刻的小站。<p><br />
-<palign="center">如果没有任何更新…也不要奇怪，因为有人很懒...<p>
+<p align="center">如果没有任何更新…也不要奇怪，因为有人很懒...<p>
 
 
