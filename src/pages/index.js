@@ -17,7 +17,7 @@ const IndexPage = () => (
           </h1>
           <div className="IndexContent">
             <span>falllin.love 是石先生与夏小姐用来记录重要时刻的小站。</span>
-            <span>如果没有任何更新…也不要奇怪，因为有人很懒...</span>
+            <span>如果没有任何更新…也不要奇怪，因为有人很<del>忙</del>懒...</span>
           </div>
         </div>
       </div>
