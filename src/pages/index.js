@@ -27,6 +27,12 @@ const IndexPage = () => (
         <h2>影像快照</h2>
         <div className="CardGroup">
           <Card
+            title="冬至"
+            text="2018.12"
+            image={require('../images/img-clip-10.jpg')}
+            alt="冬至"
+          />
+          <Card
             title="拥抱"
             text="2018.12"
             image={require('../images/img-clip-01.jpg')}
