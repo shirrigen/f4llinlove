@@ -63,6 +63,12 @@ body {
   margin: 0;
 }
 
+.PicGroup {
+  width: 500px;
+  height: 400px;
+  background-color: #FA7268;
+}
+
 @media (min-width: 1280px) {
   .IndexTitle {
     font-size: 68px;

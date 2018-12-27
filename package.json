@@ -16,6 +16,8 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
+    "react-image-lightbox": "^5.1.0",
+    "react-images": "^0.5.19",
     "react-images-viewer": "^1.6.2",
     "react-medium-image-zoom": "^3.0.15",
     "react-zmage": "^0.6.1"

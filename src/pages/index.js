@@ -12,7 +12,7 @@ const IndexPage = () => (
       <div className="PageIndex">
         <div className="IndexHead">
           <h1 className="IndexTitle">
-            <span data-index="1">这个圣诞「石❤夏」</span>
+            <span data-index="1">「石里根❤夏蓓蕾」</span>
             <span data-index="2">falllin.love ON THE AIR!</span>
           </h1>
           <div className="IndexContent">
@@ -93,5 +93,6 @@ const IndexPage = () => (
     </div>
   </Layout>
 )
+
 
 export default IndexPage
