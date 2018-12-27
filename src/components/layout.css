@@ -267,6 +267,7 @@ body {
 .Copyright p {
   font-size: 14px;
   color: white;
+  letter-spacing: -0.5px;
 }
 
 @media (min-width: 375px) {
