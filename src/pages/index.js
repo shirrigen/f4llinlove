@@ -27,9 +27,15 @@ const IndexPage = () => (
         <h2>影像快照</h2>
         <div className="CardGroup">
           <Card
+            title="官宣"
+            text="2019.02"
+            image={require('../images/img-clip-12.jpg')}
+            alt="官宣"
+          />
+          <Card
             title="冬至"
             text="2018.12"
-            image={require('../images/img-clip-10.jpg')}
+            image={require('../images/img-clip-11.jpg')}
             alt="冬至"
           />
           <Card
@@ -37,24 +43,6 @@ const IndexPage = () => (
             text="2018.12"
             image={require('../images/img-clip-01.jpg')}
             alt="拥抱"
-          />
-          <Card
-            title="双姝"
-            text="2018.12"
-            image={require('../images/img-clip-02.jpg')}
-            alt="双姝"
-          />
-          <Card
-            title="蛇口"
-            text="2018.12"
-            image={require('../images/img-clip-03.jpg')}
-            alt="蛇口"
-          />
-          <Card
-            title="肯德基外的墙"
-            text="2018.11"
-            image={require('../images/img-clip-04.jpg')}
-            alt="肯德基外的墙"
           />
           <Card
             title="渔人码头"
