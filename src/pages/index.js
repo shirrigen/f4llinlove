@@ -7,7 +7,7 @@ import Card from '../components/Card';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="石&夏" keywords={['石里根','夏蓓蕾','石里根夏蓓蕾', 'blog', '摄影', '图集','设计']} />
+    <SEO title="石❤夏" keywords={['石里根','夏蓓蕾','石里根夏蓓蕾', 'blog', '摄影', '图集','设计']} />
     <div>
       <div className="PageIndex">
         <div className="IndexHead">
@@ -72,7 +72,7 @@ const IndexPage = () => (
             </div>
           </div>
           <div className="Copyright">
-            <p>Copyright © 2018 falllin.love</p>
+            <p>Copyright © 2019 falllin.love</p>
           </div>
         </div>
       </div>
