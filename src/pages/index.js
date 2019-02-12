@@ -7,7 +7,7 @@ import Card from '../components/Card';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="首页" keywords={['gatsby', 'application', 'react']} />
+    <SEO title="石&夏" keywords={['石里根','夏蓓蕾','石里根夏蓓蕾', 'blog', '摄影', '图集','设计']} />
     <div>
       <div className="PageIndex">
         <div className="IndexHead">
